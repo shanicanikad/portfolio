@@ -1,0 +1,187 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url("https://cdn.wallpapersafari.com/45/26/w43lpK.jpg");
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    background-image: url("https://cdn.hipwallpaper.com/i/75/68/8BWvUj.jpg");
+    margin-bottom: 50px;
+}
+
+.aboutMe {
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver; 
+    font-size: 24px;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+.pic1 {
+    width: 400px;
+    height: auto;
+    color: silver;
+    border: 2px solid silver;
+    display: flex;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.title {
+   font-size: 95px;
+   margin-left: 30px;
+   margin-right: 30px;
+   color: whitesmoke;
+   font-family: Montserrat;
+}
+
+p {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    font-size: 40px;
+}
+.me {
+    font-size: 20px;
+    padding: 100px;
+    display: right;
+}
+.portfolio {
+    font-size: 24px;
+    padding: 150px;
+    height: auto;
+    width: auto;
+    padding-bottom: 50px;
+    background-image: url("https://lyfecodeltd.com/img/Affordable-Web-Design-Canada.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.grid-item {
+    background-color: silver;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px
+}
+
+.projects {
+    display: grid;
+    margin-left: 260px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project1 {
+    background-color: silver;
+    color: white;
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.project2 {
+    background-color: silver;
+    color: white;
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 2;
+    /* background-image: url("Screen\ Shot\ 2020-12-03\ at\ 1.24.58\ PM.png"); */
+}
+
+.project3 {
+    background-color: silver;
+    color: white;
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 3;
+    /* background-image: url("Screen\ Shot\ 2020-12-03\ at\ 1.22.30\ PM.png"); */
+}
+
+.project4 {
+    background-color: silver;
+    color: white;
+    border: 2px solid white;
+    grid-row: 2;
+    grid-column: 1;
+    /* background-image: url("Screen\ Shot\ 2020-12-03\ at\ 1.25.59\ PM.png"); */
+}
+
+.project5 {
+    background-color: silver;
+    color: white;
+    border: 2px solid white;
+    grid-row: 2;
+    grid-column: 2;
+    /* background-image: url("Screen\ Shot\ 2020-12-04\ at\ 9.35.19\ AM.png"); */
+}
+
+.project6 {
+    /* background-color: silver; */
+    color: white;
+    border: 2px solid white;
+    grid-row: 2;
+    grid-column: 3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: silver;
+}
+
+footer {
+    color: silver;
+}
+
+.res {
+    color: silver;
+    text-decoration: underline;
+    text-align: right;
+    display: block
+}
+.portfolio {
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    border-top: 2px solid silver; 
+    padding-top: 40px;
+    width: 90%;
+    text-align: center;
+    margin: auto
+}
+
+footer {
+    color: silver;
+    
+}

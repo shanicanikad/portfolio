@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<title>Shanica the Software Engineer!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6, .fa1 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+#img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+#img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+</style>
+<body class="w3-black">
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <img src="back.png"
+       style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PORTFOLIO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<div class="w3-padding-large" id="main">
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <!-- <h1 class="w3-jumbo"><span class="w3-hide-small">Shanica Denis</span></h1>
+    <p>The Software Engineer</p> -->
+    <img src="backagain.png" alt="boy" class="w3-image" width="3000" height="1108">
+  </header>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>My eagerness to obtain more knowledge allows me to be driven when it comes to problem solving; never stopping
+        until the goal is achieved! Changing others lives inspires me to be a positive, generous person that gets the
+        job done in the best, most efficient way possible. My professional experience consists of CPR/ First Aid/ Basic
+        Life Support certifications and CNA and Patient Care Technician certifications. Other than these certifications,
+        I have also received an Associate of Arts Degree through Bunker Hill Community College with High Honors where I
+        have completed all nursing prerequisites and also a Bachelor of Science Degree in Biology/ Pre-med studies.These
+        all have required me to have expert verbal and written communication and interpersonal skills so these are tasks
+        that I can perform accurately. Although different from my Software Engineer experience , attaining these degrees
+        and certifications have made me realize my need to work with a team (and alone) to meet a common goal: to help
+        others in some form.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+ 
+    
+<section>
+    <a class="box">
+    <p class="w3-wide">Languages</p>
+    <div class="w3-black">
+      <div class="w3-black">R, HTML 5, CSS, Javascript, SQL, Ruby, Express.js, Mongoose, Rails, MongoDB, GitHub, PostgreSQL, Heruko, Netlify, Surge, Python, Django </div>
+    </div>
+    </a>
+
+    <a class="box">
+    <p class="w3-wide">Frameworks</p>
+    <div class="w3-black">
+      <div class="w3-black"> Bootstrap, jQuery, Node.js, React.js, Storybook</div>
+    </div>
+    </a>
+
+    <a class="box">
+    <p class="w3-wide">Tools</p>
+    <div class="w3-black">
+      <div class="w3-black">MS Word, MS Excel, MS Powerpoint, MS Office</div>
+    </div>
+    </a>
+</section>    
+    
+      <p class="w3-wide">Professional</p>
+    <div class="w3-black">
+      <div class="w3-black">Leadership, Teamwork, Problem solving, Communication, Management</div>
+      </div>
+    </div><br>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section" style= "display:block; margin-left:auto; margin-right:auto">
+      <i><a class="fa1 fa-download" href="https://docs.google.com/document/d/1T_7RBVxr46zYOAQ6v5oGIKlJh1oYe_FBIzmMwyJNqtw/edit" style= "text-decoration: none">
+         Download Resume </a></i>
+      </button>
+    
+    
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <a href="https://shanicanikad.github.io/build-a-website/" style= "text-decoration: none;">Mock Up (HTML, CSS)
+              <img src="mockUp.png" id= "img" style="width:450px; height:200px"></a>
+        <a href="https://shanicanikad.github.io/ui-pattern-project/index.html" style= "text-decoration: none;">UI Pattern (HTML, CSS, Javascript) 
+            <img src="UI.png" id= "img" style="width:450px; height:200px"></a>
+            
+            <a href="https://blk-experience.vercel.app/" style= "text-decoration: none;">MERN-Group Project (React.js, CORS, Node.js, Bootstrap, Storybook, Mongo/ Mongoose, Express)
+                <img src="blk.png" id= "img" style="width:450px; height:200px"></a>
+
+      </div>
+
+      <div class="w3-half">
+
+            
+        <a href="https://sdtunrdjango.herokuapp.com/artists/" style= "text-decoration: none;">Django (Python, Pipenv, Django)
+            <img src="django.png" id= "img" style="width:450px; height:200px"></a>
+        
+        
+        <a href="https://sdcapstoneproject.vercel.app/" style= "text-decoration: none;">Capstone (React.js, Express, Mongo/ Mongoose, Node.js, CORS)
+            <img src="covid.png" id= "img" style="width:450px; height:200px"></a>
+
+            <a href="https://shanicanikad.github.io/shanicanikad.github.io-front-endgame/" style= "text-decoration: none;">Front-End Flash Card Game (HTML, CSS, Javascript)
+                <img src="frontEnd.png" id= "img" style="width:450px; height:200px"></a>
+            
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Randolph, Massachusetts, US</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: shanicanikad@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch.</p>
+  </div>
+  
+
+
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a class="fa fa-linkedin w3-hover-opacity" style="text-decoration: none" href= "https://www.linkedin.com/in/shanica-denis-918553a6/"></a>
+      <a class="fa fa-github w3-hover-opacity" style="text-decoration: none" href= "https://github.com/shanicanikad/"></a>
+     
+    <p class="w3-medium">Shanica Denis ©2020</p>
+
+  </footer>
+
+</div>
+
+</body>
+</html>
